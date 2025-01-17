@@ -34,6 +34,16 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
     vendor/sony/sm8250-common/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
     vendor/sony/sm8250-common/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/3da/com.sony.360ra.hrtf13.standard.hki:$(TARGET_COPY_OUT_VENDOR)/etc/3da/com.sony.360ra.hrtf13.standard.hki \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/3da/sforce_coef:$(TARGET_COPY_OUT_VENDOR)/etc/3da/sforce_coef \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/3da/universal32_v2_e.hki2:$(TARGET_COPY_OUT_VENDOR)/etc/3da/universal32_v2_e.hki2 \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/3da/unknown.ba:$(TARGET_COPY_OUT_VENDOR)/etc/3da/unknown.ba \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/DrangeparaAAC128.bin:$(TARGET_COPY_OUT_VENDOR)/etc/DrangeparaAAC128.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/DrangeparaAAC256.bin:$(TARGET_COPY_OUT_VENDOR)/etc/DrangeparaAAC256.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/DrangeparaAAC64.bin:$(TARGET_COPY_OUT_VENDOR)/etc/DrangeparaAAC64.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/DrangeparaMP3_128.bin:$(TARGET_COPY_OUT_VENDOR)/etc/DrangeparaMP3_128.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/DrangeparaMP3_160.bin:$(TARGET_COPY_OUT_VENDOR)/etc/DrangeparaMP3_160.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/DrangeparaMP3_192.bin:$(TARGET_COPY_OUT_VENDOR)/etc/DrangeparaMP3_192.bin \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -57,6 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/workspaceFile_Sony_edo.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/workspaceFile_Sony_edo.qwsp \
     vendor/sony/sm8250-common/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/be_movie_spc:$(TARGET_COPY_OUT_VENDOR)/etc/be_movie_spc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/sony/sm8250-common/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/sony/sm8250-common/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
@@ -122,6 +133,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/sony/sm8250-common/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/sony/sm8250-common/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/dsx_param_file.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dsx_param_file.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/face3d/qcnn_concat_file_model-0324_2_encrypted:$(TARGET_COPY_OUT_VENDOR)/etc/face3d/qcnn_concat_file_model-0324_2_encrypted \
     vendor/sony/sm8250-common/proprietary/vendor/etc/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
     vendor/sony/sm8250-common/proprietary/vendor/etc/gnss_antenna_info.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gnss_antenna_info.conf \
     vendor/sony/sm8250-common/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
@@ -186,6 +199,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/sony/sm8250-common/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/media_vib/media_vib_params_rev3:$(TARGET_COPY_OUT_VENDOR)/etc/media_vib/media_vib_params_rev3 \
     vendor/sony/sm8250-common/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/sony/sm8250-common/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
     vendor/sony/sm8250-common/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
@@ -384,8 +398,25 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/sony/sm8250-common/proprietary/vendor/etc/wifi/regdb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/regdb.bin \
     vendor/sony/sm8250-common/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/windnoise_reduction.data:$(TARGET_COPY_OUT_VENDOR)/etc/windnoise_reduction.data \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/windnoise_reduction_stat.data:$(TARGET_COPY_OUT_VENDOR)/etc/windnoise_reduction_stat.data \
     vendor/sony/sm8250-common/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/sony/sm8250-common/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_44k_ComboCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_44k_ComboCam.tbl \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_44k_FrontCHICam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_44k_FrontCHICam.tbl \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_44k_NoCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_44k_NoCam.tbl \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_44k_SWideCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_44k_SWideCam.tbl \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_44k_TeleCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_44k_TeleCam.tbl \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_44k_WideCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_44k_WideCam.tbl \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_44k_defaultCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_44k_defaultCam.tbl \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_48k_ComboCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_48k_ComboCam.tbl \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_48k_FrontCHICam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_48k_FrontCHICam.tbl \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_48k_NoCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_48k_NoCam.tbl \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_48k_SWideCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_48k_SWideCam.tbl \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_48k_TeleCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_48k_TeleCam.tbl \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_48k_WideCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_48k_WideCam.tbl \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_48k_defaultCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_48k_defaultCam.tbl \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_parameter.xml:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_parameter.xml \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/a650_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_gmu.bin \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/a650_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_sqe.fw \
@@ -661,18 +692,30 @@ PRODUCT_PACKAGES += \
     vendor.somc.hardware.security.secd@1.1 \
     vendor.somc.hardware.swiqi@1.0-impl \
     vendor.somc.hardware.swiqi@1.0 \
+    audio.primary.kona \
     libFileMux_proprietary \
     libOmxDsdDec \
     libOmxMpeghDecSw \
     libOmxVideoDSMode \
+    liba2dpoffload \
     libadm \
     libadpcmdec \
+    libaudioconfigstore \
     libaudiosnpewrapper \
+    libbatterylistener \
+    libcirrusspkrprot \
+    libcomprcapture \
     libcppf \
     libdsd2pcm \
+    libexthwplugin \
     libfastcrc \
+    libhdmiedid \
+    libhfp \
     libmm-hdcpmgr \
     libsmwrapper \
+    libsndmonitor \
+    libspkrprot \
+    libssrec \
     libwfdcodecv4l2_proprietary \
     libwfdcommonutils_proprietary \
     libwfdconfigutils_proprietary \
@@ -693,6 +736,10 @@ PRODUCT_PACKAGES += \
     libwfduibcsrcinterface_proprietary \
     libwfdutils_proprietary \
     libznr \
+    libbundlewrapper1 \
+    libbundlewrapper2 \
+    libbundlewrapper3 \
+    libbundlewrapper4 \
     libdnnrwrapper \
     libznrwrapper \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
